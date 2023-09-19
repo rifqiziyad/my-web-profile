@@ -226,6 +226,18 @@ h1 {
   .work-experience h1,
   .education h1,
   .social-media h1 {
-    font-size: 40px;
+    font-size: 60px;
+  }
+
+  .portfolio .folio {
+    flex-direction: column !important;
+  }
+
+  .portfolio .folio img {
+    margin-top: 60px;
+  }
+
+  .portfolio .folio h2 {
+    font-size: 20px;
   }
 }
