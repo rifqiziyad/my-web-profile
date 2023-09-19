@@ -1,0 +1,212 @@
+@font-face {
+  font-family: FH Giselle;
+  src: url(./font/FHGiselle-Bold.woff2);
+}
+
+@font-face {
+  font-family: Ubuntu;
+  src: url(./font/Ubuntu-Regular.ttf);
+}
+
+@media only screen and (max-width: 600px) {
+  .top-page {
+    font-size: 80px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+a {
+  text-decoration: double;
+  box-sizing: border-box;
+  border-bottom: #333 solid 1px;
+  transition: all 0.5s;
+}
+
+a:hover {
+  color: #d2d2d2;
+  border-bottom: #d2d2d2 solid 1px;
+}
+
+body {
+  background-color: #333;
+  font-family: Ubuntu, sans-serif;
+  overflow-x: hidden;
+  padding-bottom: 800px;
+}
+
+h1 {
+  color: #fff;
+  font-family: "FH Giselle", sans-serif;
+}
+
+.my-skill h1,
+.portfolio h1,
+.work-experience h1,
+.education h1,
+.social-media h1 {
+  font-size: 7vw;
+  margin: 50px 0;
+  width: max-content;
+  border-bottom: #bcbcbc solid 1px;
+}
+
+.wrapper {
+  padding: 0 80px;
+}
+
+.top-page,
+.my-skill,
+.portfolio,
+.work-experience,
+.education,
+.social-media {
+  padding: 50px 20px;
+}
+
+/* START TOP PAGE ======================================================================== */
+
+.top-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  font-weight: bold;
+  font-style: normal;
+  font-size: 130px;
+  /* border: #fff solid 10px; */
+  height: 100vh;
+  border-bottom: #bcbcbc 1px solid;
+}
+
+.about-me {
+  /* padding-top: 100px; */
+  font-family: Ubuntu, sans-serif;
+  font-size: 20px;
+}
+/* END TOP PAGE ======================================================================== */
+
+/* START MY SKILL ======================================================================== */
+
+.my-skill .forntend,
+.my-skill .backend,
+.my-skill .others {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-skill h2 {
+  padding: 30px 0;
+  font-family: "FH Giselle", sans-serif;
+}
+
+.my-skill a {
+  display: flex;
+  width: max-content;
+  padding: 10px;
+}
+
+.my-skill img {
+  /* width: 80px; */
+  padding: 10px;
+  height: 70px;
+  box-shadow: #ffffff 0px 0px 5px 1px;
+  border-radius: 10px;
+}
+
+.frontend div,
+.backend div,
+.others div {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* END MY SKILL ======================================================================== */
+
+/* START PORTOFOLIO ======================================================================== */
+
+.portfolio .folio {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.portfolio .folio .col-image {
+  flex: 3;
+  margin: 0 30px;
+  /* border-radius: 10px; */
+  overflow: hidden;
+}
+
+.portfolio img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.portfolio .folio .col-desc {
+  flex: 1;
+}
+
+.portfolio .folio .col-desc h2 {
+  font-family: "FH Giselle", sans-serif;
+  font-size: 50px;
+}
+
+.portfolio .folio .col-desc a {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.portfolio .folio .col-desc h3 {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.portfolio .folio .col-desc h6 {
+  font-size: 20px;
+}
+
+/* END PORTOFOLIO ======================================================================== */
+
+/* START WORK EXPERIENCE ======================================================================== */
+
+.work-experience h2 {
+  margin-bottom: 20px;
+}
+/* END WORK EXPERIENCE ======================================================================== */
+
+/* START EDUCATION ======================================================================== */
+
+.education h2 {
+  margin-bottom: 10px;
+}
+
+.edu-wrap {
+  margin-bottom: 40px;
+}
+/* END EDUCATION ======================================================================== */
+
+/* START SOCIAL MEDIA ======================================================================== */
+
+.social-media .wrapper > * {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.social-media img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.social-media .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* END SOCIAL MEDIA ======================================================================== */
