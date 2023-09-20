@@ -59,7 +59,7 @@ h1 {
 .work-experience,
 .education,
 .social-media {
-  padding: 50px 20px;
+  padding: 50px 10px 20px;
 }
 
 /* START TOP PAGE ======================================================================== */
@@ -73,7 +73,7 @@ h1 {
   font-style: normal;
   font-size: 130px;
   /* border: #fff solid 10px; */
-  height: 100vh;
+  min-height: 100vh;
   border-bottom: #bcbcbc 1px solid;
 }
 
@@ -153,13 +153,14 @@ h1 {
   font-size: 50px;
 }
 
-.portfolio .folio .col-desc a {
+.portfolio .folio .col-desc > .title {
   display: flex;
-}
-
-.portfolio .folio .col-desc h2 {
   margin-bottom: 30px;
 }
+
+/* .portfolio .folio .col-desc h2 {
+  margin-bottom: 30px;
+} */
 
 .portfolio .folio .col-desc h3 {
   margin-top: 20px;
@@ -212,13 +213,13 @@ h1 {
 
 /* END SOCIAL MEDIA ======================================================================== */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   .top-page {
     font-size: 80px;
   }
 
   .wrapper {
-    padding: 0 30px;
+    padding: 20px;
   }
 
   .my-skill h1,
@@ -230,14 +231,71 @@ h1 {
   }
 
   .portfolio .folio {
-    flex-direction: column !important;
+    flex-direction: column-reverse !important;
+    margin-bottom: 80px;
   }
 
   .portfolio .folio img {
-    margin-top: 60px;
+    margin-top: 0px;
   }
 
   .portfolio .folio h2 {
     font-size: 20px;
+  }
+
+  .top-page,
+  .my-skill,
+  .portfolio,
+  .work-experience,
+  .education,
+  .social-media {
+    padding: 20px 10px;
+  }
+
+  .portfolio .folio .col-desc > .title {
+    display: flex;
+    margin: 20px 0;
+  }
+
+  .portfolio .folio .col-image {
+    margin: 0;
+  }
+
+  .social-media .wrapper > * {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .top-page {
+    font-size: 60px;
+  }
+  .my-skill h1,
+  .portfolio h1,
+  .work-experience h1,
+  .education h1,
+  .social-media h1 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+
+  .my-skill h2 {
+    padding: 15px 0;
+  }
+
+  .portfolio .folio img {
+    margin-top: 20px;
+  }
+
+  .wrapper {
+    padding: 10px;
+  }
+
+  .social-media .wrapper > * {
+    margin-bottom: 5px;
+  }
+
+  .my-skill img {
+    height: 50px;
   }
 }
