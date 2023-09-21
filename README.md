@@ -5,7 +5,7 @@
 
 ## Screenshots
 
-![App Screenshot](/image/home.png)
+![App Screenshot](/images/home.png)
 
 
 ## Authors
