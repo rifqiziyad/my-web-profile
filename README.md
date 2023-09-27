@@ -15,7 +15,7 @@
 
 ## Demo
 
-https://rifqiziyad.github.io/my-profile/
+https://rifqiziyad.github.io
 
 
 ## Tech Stack
