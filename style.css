@@ -279,6 +279,56 @@ li {
 
 /* END SOCIAL MEDIA ======================================================================== */
 
+/* START LOADING COMPONENT */
+.loader {
+  display: flex;
+  transition: all 0.4s;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  backdrop-filter: blur(20px);
+}
+
+.loader.hide {
+  opacity: 0;
+}
+
+.loader div {
+  margin-left: 0.8rem;
+  background-color: rgb(34, 34, 34);
+  box-shadow: inset 2px 2px 10px black;
+  border-radius: 100%;
+  height: 1rem;
+  width: 1rem;
+}
+
+.box-load1 {
+  animation: brighten 1.2s infinite;
+}
+
+.box-load2 {
+  animation: brighten 1.2s infinite;
+  animation-delay: 0.2s;
+}
+
+.box-load3 {
+  animation: brighten 1.2s infinite;
+  animation-delay: 0.4s;
+}
+
+@keyframes brighten {
+  100% {
+    background-color: rgb(165, 165, 165);
+    box-shadow: none;
+  }
+}
+
+/* END LOADING COMPONENT */
+
 @media only screen and (max-width: 1000px) {
   .top-page {
     font-size: 80px;
