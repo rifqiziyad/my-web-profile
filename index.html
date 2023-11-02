@@ -21,15 +21,19 @@
     />
     <meta property="og:image" content="/images/home.png" />
     <meta property="og:image:alt" content="Website Personal Portfolio" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./src/style/style.css" />
     <link
       rel="preload"
-      href="./font/FHGiselle-Bold.woff2"
+      href="./src/font/FHGiselle-Bold.woff2"
       as="font"
       type="font/woff2"
     />
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <meta
       name="google-site-verification"
       content="rsLy0ZC9OCcYVHaylzAeu_yXtLtSobupPmst8fMtsJI"
@@ -53,7 +57,7 @@
         >
         <span
           data-aos="zoom-out-left"
-          data-aos-delay="700"
+          data-aos-delay="600"
           data-aos-duration="2000"
           >Imtinan</span
         >
@@ -61,7 +65,7 @@
       <!-- <h1>I am Full Stack Developer</h1> -->
 
       <div>
-        <h6 class="about-me" data-aos="fade-up" data-aos-delay="600">
+        <h6 class="about-me" data-aos="fade-up" data-aos-delay="800">
           Experienced Frontend Developer with over 2 years of expertise in
           crafting engaging and responsive user interfaces. Proficient in
           implementing web designs using HTML, CSS, JavaScript, React.js, and
@@ -105,142 +109,26 @@
         />
       </div> -->
     </section>
+
+    <!-- <section class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section> -->
+
     <!-- start my skill -->
     <section
       class="my-skill"
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
-      data-aos-delay="300"
+      data-aos-delay="500"
     >
       <h1>My Skills</h1>
-      <div class="wrapper">
-        <div class="frontend">
-          <h2>Frontend Development</h2>
-          <div>
-            <a
-              target="_blank"
-              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-            >
-              <img
-                src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
-                alt="html-icon"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
-            >
-              <img
-                src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"
-                alt="icon-css"
-              />
-            </a>
-            <a
-              target="_blank"
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-            >
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                alt="js-icon"
-              />
-            </a>
-            <a target="_blank" href="https://react.dev/">
-              <img
-                src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
-                alt="react-icon"
-              />
-            </a>
-            <a target="_blank" href="https://nextjs.org/">
-              <img
-                src="https://static-00.iconduck.com/assets.00/nextjs-icon-512x309-yynfidez.png"
-                alt="next-icon"
-              />
-            </a>
-            <a target="_blank" href="https://jquery.com/">
-              <img
-                src="https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg"
-                alt="jquery"
-              />
-            </a>
-            <a target="_blank" href="https://redux.js.org/">
-              <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
-                alt=""
-              />
-            </a>
-            <a target="_blank" href="https://getbootstrap.com/">
-              <img
-                src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg"
-                alt="bootstrap"
-              />
-            </a>
-          </div>
-        </div>
-        <div class="backend">
-          <h2>Backend Developement</h2>
-          <div>
-            <a target="_blank" href="https://nodejs.org/en">
-              <img
-                src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"
-                alt="node.js"
-              />
-            </a>
-            <a target="_blank" href="https://expressjs.com/">
-              <img
-                src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg"
-                alt="express.js"
-              />
-            </a>
-            <a target="_blank" href="https://www.mysql.com/">
-              <img
-                src="https://www.vectorlogo.zone/logos/mysql/mysql-official.svg"
-                alt="mysql"
-              />
-            </a>
-            <a target="_blank" href="https://redis.io/">
-              <img
-                src="https://www.vectorlogo.zone/logos/redis/redis-ar21.svg"
-                alt="redis"
-              />
-            </a>
-          </div>
-        </div>
-        <div class="others">
-          <h2>Others</h2>
-          <div>
-            <a target="_blank" href="https://git-scm.com/">
-              <img
-                src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
-                alt="git"
-              />
-            </a>
-            <a target="_blank" href="https://www.npmjs.com/">
-              <img
-                src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg"
-                alt="npm"
-              />
-            </a>
-            <a target="_blank" href="https://www.postman.com/">
-              <img
-                src="https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg"
-                alt="postman"
-              />
-            </a>
-            <a target="_blank" href="https://github.com/">
-              <img
-                src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
-                alt="github"
-              />
-            </a>
-            <a target="_blank" href="https://about.gitea.com/">
-              <img
-                src="https://www.vectorlogo.zone/logos/giteaio/giteaio-ar21.svg"
-                alt="gitea"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
+      <div class="wrapper" id="my-skill"></div>
     </section>
     <!-- end my skill -->
 
@@ -261,17 +149,36 @@
               Technologies used: JavaScript, jQuery, Bootstrap, PHP.
             </h6>
           </div>
-          <a
-            href="https://ignica.com"
-            target="_blank"
-            class="col-image"
-            data-aos="fade-right"
-          >
-            <img
-              src="./images/ignica/Screenshot 2023-09-13 at 09.32.34.webp"
-              alt="ignica"
-            />
-          </a>
+          <div class="col-image swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="./images/ignica/Screenshot 2023-09-13 at 09.32.34.webp"
+                  alt="ignica"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/ignica/Screenshot 2023-09-13 at 09.33.01.webp"
+                  alt="ignica"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/ignica/ignica.com_(iPhone XR).webp"
+                  alt="ignica"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/ignica/ignica.com_(iPad Air).webp"
+                  alt="ignica"
+                />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
         </div>
         <div class="folio">
           <div class="col-desc" data-aos="fade-right">
@@ -422,17 +329,16 @@
       <div class="box-load3"></div>
     </div>
     <!-- End Loading Component -->
+    <script type="module" src="./src/script/script.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       window.addEventListener("load", (e) => {
-        // setTimeout(() => {
         document.getElementById("loader").classList.add("hide");
         setTimeout(() => {
           document.getElementById("loader").style.display = "none";
         }, 500);
-        // }, 1000);
       });
-      AOS.init();
     </script>
   </body>
 </html>

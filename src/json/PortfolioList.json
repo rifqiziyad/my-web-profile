@@ -1,0 +1,83 @@
+{
+  "name": "portofolio",
+  "data": [
+    {
+      "title": "ignica.com",
+      "link_web": null,
+      "link_repo": null,
+      "desc": "It is a company profile website that contains product & service, case study, contact, and news sections. Redesigned the UI of the home page to enhance user experience and responsiveness. Technologies used: JavaScript, jQuery, Bootstrap, PHP.",
+      "img": [
+        {
+          "src": "./images/ignica/Screenshot2023-09-13at09.32.34.webp",
+          "alt": "ignica"
+        },
+        {
+          "src": "./images/ignica/Screenshot 2023-09-13 at 09.33.01.webp",
+          "alt": "ignica"
+        },
+        {
+          "src": "./images/ignica/ignica.com_(iPhone XR).webp",
+          "alt": "ignica"
+        },
+        {
+          "src": "./images/ignica/ignica.com_(iPad Air).webp",
+          "alt": "ignica"
+        }
+      ]
+    },
+    {
+      "title": "Workflow",
+      "link_web": null,
+      "link_repo": null,
+      "desc": "It is a web application designed to meet the needs of our client's office. It consists of several modules, such as petty payment, general recruitment, master data, and target management. Designed and developed the UI according to the client's requirements and integrated it with the backend through APIs. Technologies used: React.js, Bootstrap, Redux, Golang.",
+      "src": "./images/workflow/homepage.png",
+      "alt": "workflow"
+    },
+    {
+      "title": "Ticket Sans",
+      "link_web": null,
+      "link_repo": "https://github.com/rifqiziyad/frontend-ticket-sans",
+      "desc": "Website for purchasing movie tickets online without having to come to the cinema to queue for tickets. Some of the technologies used include ReactJs, React Bootstrap, Axios, NodeJs, ExpressJs, MySql, and Redis.",
+      "img": [{ "src": "./images/workflow/homepage.png", "alt": "ticket-sans" }]
+    },
+    {
+      "title": "Odo",
+      "link_web": null,
+      "link_repo": "https://github.com/rifqiziyad/front-end-Odo",
+      "desc": "It is a web e-wallet that is useful for storing money used for online transactions. The technologies used include, reactJs, NextJs, Redux, NodeJs, ExpressJs, MySql",
+      "alt": "odo"
+    },
+    {
+      "title": "Lelegram",
+      "link_web": null,
+      "link_repo": "https://github.com/rifqiziyad/front-end-realtime",
+      "desc": "A website for 2 people who want to chat online. Some of the technologies used include, ReactJs, React Bootstrap, Axios, NodeJs, ExpressJs, and MySql.",
+      "src": "./images/workflow/homepage.png",
+      "alt": "lelegram"
+    },
+    {
+      "title": "Coffee Express",
+      "link_web": null,
+      "link_repo": "https://github.com/rifqiziyad/front-end-realtime",
+      "desc": "This website is here to make it easier for you in enjoying coffee and snacks like in a cafe. This website was created with a team. The technology used, namely ReactJs, React Bootstrap, NextJs, Axios, NodeJs, ExpressJs and Mysql",
+      "src": "./images/workflow/homepage.png",
+      "alt": "coffee-express"
+    },
+    {
+      "title": "Lelegram",
+      "link_web": null,
+      "link_repo": "https://github.com/rifqiziyad/front-end-realtime",
+      "desc": "A website for 2 people who want to chat online. Some of the technologies used include, ReactJs, React Bootstrap, Axios, NodeJs, ExpressJs, and MySql.",
+      "src": "./images/workflow/homepage.png",
+      "alt": "lelegram"
+    },
+    {
+      "title": "Jobshall",
+      "link_web": null,
+      "link_repo": "https://github.com/rifqiziyad/front-end-realtime",
+      "desc": "A website that is used to accommodate workers for later search by company recruiters who need it. Some of the technologies used include, ReactJs, React Bootstrap, Axios, NodeJs, ExpressJs, and MySql.",
+      "src": "./images/workflow/homepage.png",
+      "alt": "jobshall"
+    }
+  ]
+}

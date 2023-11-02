@@ -1,0 +1,98 @@
+{
+  "Frontend Developer": [
+    {
+      "_src": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg",
+      "_alt": "html-icon",
+      "_href": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg",
+      "_alt": "icon-css",
+      "_href": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "_src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+      "_alt": "js-icon",
+      "_href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg",
+      "_alt": "react-icon",
+      "_href": "https://react.dev/"
+    },
+    {
+      "_src": "https://static-00.iconduck.com/assets.00/nextjs-icon-512x309-yynfidez.png",
+      "_alt": "next-icon",
+      "_href": "https://nextjs.org/"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg",
+      "_alt": "jquery",
+      "_href": "https://jquery.com/"
+    },
+    {
+      "_src": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg",
+      "_alt": "",
+      "_href": "https://redux.js.org/"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-ar21.svg",
+      "_alt": "bootstrap",
+      "_href": "https://getbootstrap.com/"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg",
+      "_alt": "typescript",
+      "_href": "https://www.typescriptlang.org/"
+    }
+  ],
+  "Backend Developer": [
+    {
+      "_src": "https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg",
+      "_alt": "node.js",
+      "_href": "https://nodejs.org/en"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg",
+      "_alt": "express.js",
+      "_href": "https://expressjs.com/"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/mysql/mysql-official.svg",
+      "_alt": "mysql",
+      "_href": "https://www.mysql.com/"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/redis/redis-ar21.svg",
+      "_alt": "redis",
+      "_href": "https://redis.io/"
+    }
+  ],
+  "Others": [
+    {
+      "_src": "https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg",
+      "_alt": "git",
+      "_href": "https://git-scm.com/"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg",
+      "_alt": "npm",
+      "_href": "https://www.npmjs.com/"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/getpostman/getpostman-ar21.svg",
+      "_alt": "postman",
+      "_href": "https://www.postman.com/"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/github/github-ar21.svg",
+      "_alt": "github",
+      "_href": "https://github.com/"
+    },
+    {
+      "_src": "https://www.vectorlogo.zone/logos/giteaio/giteaio-ar21.svg",
+      "_alt": "gitea",
+      "_href": "https://about.gitea.com/"
+    }
+  ]
+}
