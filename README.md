@@ -20,7 +20,7 @@ https://rifqiziyad.github.io
 
 ## Tech Stack
 
-HTML, CSS, AOS
+HTML, CSS, AOS, JS
 
 
 
